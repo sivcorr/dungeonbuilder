@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "dungeonbuilder",
+	"version": "${version}",
+	"name": "DungeonBuilder",
+	"description": "Construye dungeons personalizados de forma sencilla, con colocación rápida de estructuras y configuración del loot de cofres.",
+	"authors": [
+		"Sivcorr"
+	],
+	"contact": {
+		"homepage": "https://github.com/Sivcorr/dungeonbuilder",
+		"sources": "https://github.com/Sivcorr/dungeonbuilder",
+		"issues": "https://github.com/Sivcorr/dungeonbuilder/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/dungeonbuilder/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.dungeonbuilder.DungeonBuilder"
+		],
+		"client": [
+			"dev.dungeonbuilder.DungeonBuilderClient"
+		]
+	},
+	"mixins": [
+		"dungeonbuilder.mixins.json",
+		{
+			"config": "dungeonbuilder.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
