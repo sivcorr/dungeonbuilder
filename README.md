@@ -28,7 +28,6 @@ DungeonBuilder is being developed with a focus on simplicity, compatibility, and
 ## 🛠️ For Developers
 
 ```bash
-./gradlew runClient📋 Info
 Status: In DevelopmentMinecraft Version: 1.21.1Mod Loader: Fabric
 📜 License
-This project is licensed under the MIT License - Copyright (c) 2026 SivcorrSee the LICENSE file for details.
+This project is licensed under the MIT License - Copyright (c) 2026 Sivcorr See the LICENSE file for details.
